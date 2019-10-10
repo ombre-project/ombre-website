@@ -2040,17 +2040,18 @@ input, select, textarea {
 		-webkit-align-items: center;
 		-ms-align-items: center;
 		align-items: center;
-		-moz-justify-content: center;
-		-webkit-justify-content: center;
-		-ms-justify-content: center;
-		justify-content: center;
-		position: relative;
-		height: 24em;
+		-moz-justify-content: space-between;
+		-webkit-justify-content: space-between;
+		-ms-justify-content: space-between;
+		justify-content: spcae-between;
+		/*position: relative;*/
+		flex-flow: row;
+		height: 20em;
 		background: url("../../images/banner.jpg") center center;
 		background-size: cover;
 		padding: 0;
 	}
-
+/*
 		#header:before {
 			content: '';
 			position: absolute;
@@ -2064,16 +2065,16 @@ input, select, textarea {
 		.homepage #header {
 			height: 25em;
 		}
-
+*/
 /* Logo */
-
+/*
 	#logo {
 		width: 100%;
 		text-align: center;
 		position: relative;
 		top: 1.5em;
 	}
-
+*/
 		#logo h1 {
 			font-weight: 900;
 			text-transform: uppercase;
@@ -2093,7 +2094,7 @@ input, select, textarea {
 		}
 
 /* Nav */
-
+/*
 	#nav {
 		position: absolute;
 		display: block;
@@ -2102,7 +2103,7 @@ input, select, textarea {
 		width: 100%;
 		text-align: center;
 	}
-
+*/
 		#nav > ul {
 			display: inline-block;
 			border-radius: 0.35em;
@@ -2959,3 +2960,26 @@ input, select, textarea {
 						}
 
 	}
+
+#logo_of_ombre_on_top {
+	/*background-color:#D5D593;*/
+	border-radius: 50%;
+	width:40%;
+	height:40%;
+}
+
+pre.literal-block, pre.doctest-block, pre.math, pre.code {
+	margin-left: 2em ;
+	margin-right: 2em
+}
+pre.code .ln { color: grey; } /* line numbers */
+pre.code, code { background-color: #eeeeee }
+pre.code .comment, code .comment { color: #5C6576 }
+pre.code .keyword, code .keyword { color: #3B0D06; font-weight: bold }
+pre.code .literal.string, code .literal.string { color: #0C5404 }
+pre.code .name.builtin, code .name.builtin { color: #352B84 }
+pre.code .deleted, code .deleted { background-color: #DEB0A1}
+pre.code .inserted, code .inserted { background-color: #A3D289}
+
+
+/**/

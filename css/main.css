@@ -143,7 +143,12 @@ body {
   border-left-color: var(--color-foreground-main);
   padding-left: 20px;
 }
-
+#logo_of_ombre_on_top {
+	/*background-color:#D5D593;*/
+	border-radius: 50%;
+	width:40%;
+	height:40%;
+}
 /*
 #flex-header{
 	display: flex;
