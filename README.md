@@ -24,6 +24,6 @@ Dependancies for building script:
 * ncp https://www.npmjs.com/package/ncp
 * html-minifier https://www.npmjs.com/package/html-minifier
 
-@TODO Propper minification support for JS and JQuery will be added soon.
+@TODO Propper minification support for JS will be added soon.
 
 A script to check your dependencies and install the required tools automatically will be added soon.
