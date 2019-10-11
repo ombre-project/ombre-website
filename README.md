@@ -4,9 +4,12 @@ Welcome to Ombre!
 
 This is the repository corresponding to Ombre's website.
 
+https://ombrecoin.github.io for viewing the latest live changes of the website
+
 Please feel free to contribute and improve this website as you see fit!
 
 Also, if you've experienced any bugs while using this site, please report an issue!
+
 
 ## Building This Site
 For the sake of development, it is sufficient to simply clone this project and run it normally (ie by opening index.html in a browser of your choice). However, before serving live, build this website using the provided build utility.
