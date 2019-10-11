@@ -1,0 +1,3 @@
+/*header {grid-template-columns: 10% auto;} background-color:var(--background-color-of-header); */
+header>#top-website {grid-template-columns: 10% auto; grid-template-areas: "ombre_logo header_menu";}
+header>#top-website>nav>a{ display:block; margin:12px;}
