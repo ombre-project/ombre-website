@@ -8,9 +8,15 @@
   <!-- <link rel="stylesheet" href="assets/css/main.css" />-->
   <link rel="stylesheet" type="text/css" media="screen" href="css/download_common.css" />
   <link rel="stylesheet" type="text/css" media="screen and (min-width: 750px)" href="css/download_widescreen.css">
+  <link rel="stylesheet" type="text/css" media="screen and (min-width: 750px)" href="css/two_column_with_awesomefonts_widescreen.css">
   <link rel="stylesheet" type="text/css" media="screen and (min-width: 200px) and (max-width: 749px)" href="css/download_smallscreen.css">
-  <!-- <link rel="stylesheet" type="text/css" media="screen" href="assets/css/font-awesome/css/font-awesome.min.css"> -->
-  <script src="https://kit.fontawesome.com/057e5b704c.js" crossorigin="anonymous"></script> 
+  <link rel="stylesheet" type="text/css" media="screen" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+  <!-- <script src="https://kit.fontawesome.com/057e5b704c.js" crossorigin="anonymous"></script>
+  
+  replace https://fontawesome.com/v4.7.0/examples/
+  with svg image 
+  which can be controlled better
+  -->
 </head>
 <body>
   <header>
@@ -27,65 +33,24 @@
     <h1>Downloads and Use</h1>
     <div id="empty_cell"></div>
   </header>
-  <section id="two_column_with_awesomefonts">
-    <div id="row_0_of_awesomefonts">
-      <div id="col_0">
-        <div><i id="fas fa-linux"></i></div>
-        <div><a href="#">Ubuntu 18.04</a></div>
-      </div>
-      <div id="col_1">
-        <div><i id="fas fa-linux"></i></div>
-        <div><a href="#">Ubuntu 19.04</a></div>
-      </div>      
-    </div>
+  <section class="two_column_with_awesomefonts" style="background-color:white;">
+    <div></div>
+    <h1 class="fa fa-linux col_of_awesomefonts"></h1>
+    <div class="col_of_awesomefonts"><a href="#">Ubuntu 18.04 CLI</a></div>
+    <div></div>
+    <h1 class="fa fa-linux col_of_awesomefonts"></h1>
+    <div class="col_of_awesomefonts"><a href="#">Ubuntu 19.04 CLI</a></div>
+    <div></div>
+
+    <div></div>
+    <h1 class="fa fa-linux col_of_awesomefonts"></h1>
+    <div class="col_of_awesomefonts"><a href="#">Ubuntu 16.04 CLI</a></div>
+    <div></div>
+    <h1 class="fa fa-windows col_of_awesomefonts"></h1>
+    <div class="col_of_awesomefonts"><a href="#">windows 64</a></div>
+    <div></div>
   </section>
-  <section id="main" class="wrapper style2">
-      <div class="container">
-        <!-- Features -->
-        <section id="features">
-          <div class="feature-list">
-            <div class="row">
-              <div class="col-6 col-12-medium">
-                <section>
-                  <h3 class="icon fa-linux">Linux CLI</h3>
-                  <p><a href="https://github.com/ombre-projects/ombre/releases/download/1.4.2.1/ombre-1.4.2.1-linux-x64.tgz">Current version 1.4.2.1</a></p>
-                </section>
-              </div>
-              <div class="col-6 col-12-medium">
-                <section>
-                  <h3 class="icon fa-linux">Linux GUI</h3>
-                  <p><a href="https://github.com/ombre-projects/OmbreGUIWallet/releases/download/1.4.2.1/ombre-wallet-linux-1.4.2.1.tgz">Current version 1.4.2.1</a></p>
-                </section>
-              </div>
-              <div class="col-6 col-12-medium">
-                <section>
-                  <h3 class="icon fa-windows">Windows CLI</h3>
-                  <p><a href="https://github.com/ombre-projects/ombre/releases/download/1.4.2.1/ombre-1.4.2.1-windows.zip">Current version 1.4.2.1</a></p>
-                </section>
-              </div>
-              <div class="col-6 col-12-medium">
-                <section>
-                  <h3 class="icon fa-windows">Windows GUI</h3>
-                  <p><a href="https://github.com/ombre-projects/OmbreGUIWallet/releases/download/1.4.2.1/ombre-wallet-windows-1.4.2.1.zip">Current version</a></p>
-                 </section>
-              </div>
-              <div class="col-6 col-12-medium">
-                <section>
-                   <h3 class="icon fa-archive">Source code CLI</h3>
-                   <p><a href="https://github.com/ombre-projects/ombre/archive/1.4.2.1.tar.gz">tar.gz</a></p>
-                </section>
-              </div>
-              <div class="col-6 col-12-medium">
-                <section>
-                  <h3 class="icon fa-archive">Source code GUI</h3>
-                  <p><a href="https://github.com/ombre-projects/OmbreGUIWallet/archive/1.4.2.1.tar.gz">tar.gz</a></p>
-                </section>
-              </div>
-            </div>
-          </div>
-        </section>
-      </div>
-    </section>
+
     <div style="width:80%;margin:0 auto;margin-bottom:80px;padding:10px; border:1px solid; box-shadow: 5px 10px;">
       <h1 style="background-color:grey;color:yellow;margin:0 auto;text-align:center;box-shadow: 3px 6px black;">How to run in CLI</h1>
       <ol>

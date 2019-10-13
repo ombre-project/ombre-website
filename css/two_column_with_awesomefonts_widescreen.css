@@ -1,0 +1,6 @@
+/*.two_column_with_awesomefonts{display:grid; grid-template-rows: auto;grid-template-columns: auto ;}
+.row_of_awesomefonts{display:grid; grid-template-rows: auto;grid-template-columns: 5% 4% 36% 4% 36% 5%;place-self:stretch;justify-content:center;place-items:center;}*/
+.two_column_with_awesomefonts{display:grid; grid-template-rows: auto;grid-template-columns: 5% 4% 35% 2% 4% 35% 5%;place-self:stretch;justify-content:center;place-items:center;}
+.col_of_awesomefonts{justify-self:start;  }/* justify-content:space-evenly; align-self:center;}*/
+.two_column_with_awesomefonts >h1.col_of_awesomefonts{justify-self:end;object-fit: cover;  width: 100%;  max-height: 100%; font-size:3em; }/* justify-content:space-evenly; align-self:center;}*/
+
