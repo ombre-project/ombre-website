@@ -1,6 +1,58 @@
+:root{ --background-color-of-header: #2B2E2F;}
+/*
+var(--background-color-of-header);
+*/
 /*.two_column_with_awesomefonts{display:grid; grid-template-rows: auto;grid-template-columns: auto ;}
 .row_of_awesomefonts{display:grid; grid-template-rows: auto;grid-template-columns: 5% 4% 36% 4% 36% 5%;place-self:stretch;justify-content:center;place-items:center;}*/
-.two_column_with_awesomefonts{display:grid; grid-template-rows: auto;grid-template-columns: 5% 4% 35% 2% 4% 35% 5%;place-self:stretch;justify-content:center;place-items:center;}
-.col_of_awesomefonts{justify-self:start;  }/* justify-content:space-evenly; align-self:center;}*/
-.two_column_with_awesomefonts >h1.col_of_awesomefonts{justify-self:end;object-fit: cover;  width: 100%;  max-height: 100%; font-size:3em; }/* justify-content:space-evenly; align-self:center;}*/
 
+.two_column_with_awesomefonts{
+  display:grid;
+  grid-template-rows: auto;
+  grid-template-columns: 4% 7% 37% 4% 7% 37% 4%;
+  justify-content:center;
+  align-items: center;
+  background-color: #28434B /*#3D484C #2B2E2F*/;
+  color:white;
+}
+
+.col_of_awesomefonts{
+  justify-self:start;
+  color: white;
+}/* justify-content:space-evenly; align-self:center;}*/
+
+.two_column_with_awesomefonts > h1.col_of_awesomefonts{
+  justify-self: end;
+  object-fit: cover;
+  width: 100%;
+  max-height: 100%;
+  font-size:3em;
+}
+  /* justify-content:space-evenly; align-self:center;}*/
+
+.col_of_awesomefonts > img {
+  height: 1em;
+  width: auto;
+}
+
+.col_of_awesomefonts a{
+  justify-self:start;
+  color: white;
+}/* justify-content:space-evenly; align-self:center;}*/
+
+div.header-of-part > h3{
+  background-color: #3D484C /*#2B2E2F #B094C6*/;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+section.download-and-do-step-by-step{
+  background-color: #1C8C98;
+}
+
+footer{
+  margin: 10px;
+  padding: 10px;
+  background-color: #D2E3E5;
+  border:
+}

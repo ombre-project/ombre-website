@@ -1,11 +1,60 @@
-:root{ --background-color-of-header: gray;}
-header {background-color:var(--background-color-of-header);}
+:root{ --background-color-of-header: #2B2E2F;}
+
+body{
+  margin: 0;
+  padding: 0;
+  background-color:var(--background-color-of-header);
+}
+
+header {
+  /*background-color:var(--background-color-of-header);*/
+  background: url("../images/banner.jpg");
+  color: white;
+  
+}
+
 #empty_cell {grid-area: empty_cell;}
-header >#top-website>img#ombre_logo{  /*width:20%;*/  object-fit: cover;  width: 100%;  max-height: 100%; grid-area:ombre_logo;}
-header >#top-website {display:grid; grid-template-rows: auto;}
-header >#top-website>nav{  justify-self: center; grid-area:header_menu;margin:4px;align-self:center;}
-header >#top-website>nav > a{  /*border:2px;*/  border-color: #AE16EA;  border-style:solid;  border-radius: 12px;  margin:2px;  padding:3px;  box-shadow: 0 0 0 2px skyblue;}
+
+header >#top-website>img#ombre_logo{  /*width:20%;*/  
+  object-fit: cover;  
+  width: 100%;  
+  max-height: 100%; 
+  grid-area:ombre_logo;
+}
+
+header > #top-website{
+  display:grid; 
+  grid-template-rows: auto;
+}
+
+header > #top-website>nav{  
+  justify-self: center; 
+  grid-area:header_menu;
+  margin:4px;
+  align-self:center;
+}
+
+header >#top-website>nav > a{ 
+  text-decoration:none; 
+  color: white;  
+  border:1px;  
+  border-color: #333C4C /*#AE16EA*/;  
+  border-style:solid;  
+  border-radius: 12px;  
+  margin:7px;  
+  padding:3px;  
+  box-shadow: 0 0 0 2px /*skyblue*/;
+}
 header div>#top-website,h1 {justify-self: center;  text-align:center;}
+
+
+ol.step-by-step-help li{
+/*
+  margin: 1rem;
+*/
+  padding: 1rem;
+}
+
 /*
 .download-title {
   font-weight: 300;

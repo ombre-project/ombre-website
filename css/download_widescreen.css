@@ -1,2 +1,5 @@
 header{ padding:3em;} /* background-color:var(--background-color-of-header); */
-header>#top-website {grid-template-columns: 10% auto 10%; grid-template-areas: "ombre_logo header_menu empty_cell" ;}
+header>#top-website {
+  grid-template-columns: 10% auto 10%; 
+  grid-template-areas: "ombre_logo header_menu empty_cell" ;
+}
