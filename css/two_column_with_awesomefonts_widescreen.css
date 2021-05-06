@@ -50,6 +50,10 @@ section.download-and-do-step-by-step{
   background-color: #1C8C98;
 }
 
+section.download-and-do-step-by-step a{
+  color: white;
+}
+
 footer{
   margin: 10px;
   padding: 10px;
