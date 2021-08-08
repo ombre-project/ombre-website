@@ -1,0 +1,109 @@
+:root{ --background-color-of-header: #DFD3D3;}
+
+body{ margin: 0; padding: 0; background-color:var(--background-color-of-header);}
+
+header {
+  background: url("../images/banner.jpg");
+  color: white; 
+}
+
+#empty_cell {grid-area: empty_cell;}
+
+header >#top-website>img#ombre_logo{  /*width:20%;*/  
+  object-fit: cover;  
+  width: 100%;  
+  max-height: 100%; 
+  grid-area:ombre_logo;
+}
+
+header > #top-website{
+  display:grid; 
+  grid-template-rows: auto;
+}
+
+header > #top-website>nav{  
+  justify-self: center; 
+  grid-area:header_menu;
+  margin:4px;
+  align-self:center;
+}
+
+header >#top-website>nav > a{ 
+  text-decoration:none; 
+  color: white;  
+  border:1px;  
+  border-color: #333C4C /*#AE16EA*/;  
+  border-style:solid;  
+  border-radius: 12px;  
+  margin:7px;  
+  padding:3px;  
+  box-shadow: 0 0 0 2px /*skyblue*/;
+}
+header div>#top-website,h1 {justify-self: center;  text-align:center;}
+
+ol.step-by-step-help li{/* margin: 1rem;*/
+  padding: 1rem;
+}
+
+/*
+.download-title {  font-weight: 300;  font-size: 26px;}
+.download-img-group-wrapper {  width: 95%;  display: flex;  align-items: center;}
+.download-icon {width: 80px; display: inline; margin-top: 30px; margin-bottom: 30px; margin-right: 20px;}
+.download-group {display: inline-block;  vertical-align: top;}
+.download a {  text-decoration: none;  color: rgb(130,130,130);}
+.column {  width: 33%;  display: inline-block;  vertical-align: top;}
+*/
+
+/* for wide screen */
+header{ padding:3em;} /* background-color:var(--background-color-of-header); */
+header>#top-website {
+  grid-template-columns: 10% auto 10%; 
+  grid-template-areas: "ombre_logo header_menu empty_cell" ;
+}
+/* for wide screen (END)*/
+
+footer{
+  background-color: #D2E3E5;
+  border:
+}
+footer > div {
+  margin: 10px;
+  padding: 10px;
+}
+
+/* two column for widescreen */
+.two_column{
+  display:grid;
+  grid-template-rows: auto;
+  grid-template-columns: 4% 7% 37% 4% 7% 37% 4%;
+  justify-content:center;
+  align-items: center;
+  background-color: #28434B /*#3D484C #2B2E2F*/;
+  color:white;
+}
+
+.col_of{
+  justify-self:start;
+  color: white;
+}/* justify-content:space-evenly; align-self:center;}*/
+
+.two_column > h1.col_of{
+  justify-self: end;
+  object-fit: cover;
+  width: 100%;
+  max-height: 100%;
+  font-size:3em;
+}
+/* justify-content:space-evenly; align-self:center;}*/
+
+.col_of > img {
+  height: 1em;
+  width: auto;
+}
+
+.col_of a{
+  justify-self:start;
+  color: white;
+}/* justify-content:space-evenly; align-self:center;}*/
+
+/* two column for widescreen (END) */
