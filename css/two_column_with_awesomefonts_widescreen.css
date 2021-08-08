@@ -1,10 +1,3 @@
-:root{ --background-color-of-header: #2B2E2F;}
-/*
-var(--background-color-of-header);
-*/
-/*.two_column_with_awesomefonts{display:grid; grid-template-rows: auto;grid-template-columns: auto ;}
-.row_of_awesomefonts{display:grid; grid-template-rows: auto;grid-template-columns: 5% 4% 36% 4% 36% 5%;place-self:stretch;justify-content:center;place-items:center;}*/
-
 .two_column_with_awesomefonts{
   display:grid;
   grid-template-rows: auto;
