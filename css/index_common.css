@@ -66,6 +66,10 @@ header>#top-website {
 footer > div {
   margin: 10px;
   padding: 10px;
+  display: grid;
+  grid-template-rows: auto;
+  justify-items:center;
+  align-items: center;
 }
 
 /* two column for widescreen */
