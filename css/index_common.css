@@ -63,15 +63,25 @@ header>#top-website {
 /* for wide screen (END)*/
 
 /*footer{background-color: #D2E3E5; border:}*/
-footer > div {
+footer {
   margin: 10px;
   padding: 10px;
-  display: grid;
-  grid-template-rows: auto;
-  justify-items:center;
-  align-items: center;
+  text-align:center;
+}
+footer img {
+  width: 100px;
+  height: 100px;
 }
 
+footer #link-icons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  align-content: space-between;
+  justify-content: space-between;
+}
 /* two column for widescreen */
 .two_column{
   display:grid;

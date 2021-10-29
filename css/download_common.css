@@ -54,6 +54,11 @@ ol.step-by-step-help li{
 */
   padding: 1rem;
 }
+footer {
+  margin: 10px;
+  padding: 10px;
+  text-align:center;
+}
 
 /*
 .download-title {
