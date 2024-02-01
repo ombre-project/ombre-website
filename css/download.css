@@ -184,7 +184,16 @@ footer .access div ul a li {
     height: 100px;
   }
   .section-download a {
-    font-size: 1rem;
+    font-size: 1.5rem;
+  }
+  .section-install h2{
+    font-size: 25px;
+  }
+  .section-install p{
+    font-size: 20px;
+  }
+  .section-install li{
+    font-size: 20px;
   }
   .access {
     display: flex;
@@ -193,5 +202,12 @@ footer .access div ul a li {
   }
   .box{
     width: 100%;
+	margin-bottom: 1.2rem;
+  }
+  .box h4{
+    font-size: 22px;
+  }
+  .box ul a li{
+    font-size: 18px;
   }
 }

@@ -154,6 +154,12 @@ footer .access div ul a li {
     justify-content: center;
     align-items: center;
   }
+  .single-property h3{
+    font-size: 25px;
+  }
+  .single-property p {
+    font-size: 20px;
+  }
   .access{
     display: flex;
     flex-direction: column;
@@ -161,5 +167,12 @@ footer .access div ul a li {
   }
   .box{
     width: 100%;
+	margin-bottom: 1.2rem;
+  }
+  .box h4{
+    font-size: 22px;
+  }
+  .box ul a li{
+    font-size: 18px;
   }
 }
