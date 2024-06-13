@@ -1,0 +1,213 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.navbar {
+  padding: 10px 12px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.navbar img {
+  width: 60px;
+  height: 50px;
+}
+
+.navbar ul {
+  margin-left: 30px;
+  list-style: none;
+  color: #fff;
+}
+
+.navbar ul li {
+  padding: 20px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.section-header .title {
+  color: #fff;
+  text-align: center;
+  padding-top: 200px;
+  height: 200px;
+  background-image: linear-gradient(
+    to left,
+    #080f1a,
+    #16282f,
+    #294141,
+    #465a4f,
+    #6c725e
+  );
+}
+
+/* section download */
+.section-download {
+  padding: 30px 450px;
+  background-image: linear-gradient(
+    to left bottom,
+    #151a21,
+    #2d4047,
+    #4c6968,
+    #799484,
+    #b5be9f
+  );
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-download .col-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
+
+.section-download .col-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
+
+.section-download .col-1 div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 90px;
+}
+
+.section-download .col-2 div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 90px;
+}
+
+.section-download img {
+  width: 50px;
+  height: 50px;
+}
+
+.section-download a {
+  padding-left: 30px;
+}
+
+/* section install */
+
+.section-install {
+  padding: 0 400px;
+}
+
+.section-install h2 {
+  text-align: center;
+}
+
+.section-install p {
+  margin-bottom: 100px;
+}
+
+.section-install ol li {
+  margin-bottom: 30px;
+}
+
+.section-install ol li ul {
+  margin: 20px 40px;
+}
+
+/* footer */
+
+footer {
+  background-image: linear-gradient(
+    to top,
+    #080f1a,
+    #16282f,
+    #294141,
+    #465a4f,
+    #6c725e
+  );
+}
+
+footer .access {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: start;
+}
+
+footer .access div ul a li {
+  padding: 12px 0;
+  color: white;
+}
+
+.desc {
+  text-align: center;
+  color: #fff;
+}
+
+.desc h4,
+.desc h5,
+.desc p,
+.desc div {
+  padding: 15px;
+}
+.desc h4 {
+  color: red;
+}
+
+.desc div a {
+  color: red;
+}
+
+@media screen and (max-width: 1024px) {
+  .section-download {
+    flex-direction: column;
+    padding: 20px 10px;
+  }
+  .section-install {
+    padding: 20px 10px;
+  }
+  .section-download .col-1 div {
+    margin-bottom: 30px;
+  }
+  .section-download .col-2 div {
+    margin-bottom: 30px;
+  }
+  .section-download img {
+    width: 100px;
+    height: 100px;
+  }
+  .section-download a {
+    font-size: 1.5rem;
+  }
+  .section-install h2{
+    font-size: 25px;
+  }
+  .section-install p{
+    font-size: 20px;
+  }
+  .section-install li{
+    font-size: 20px;
+  }
+  .access {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .box{
+    width: 100%;
+	margin-bottom: 1.2rem;
+  }
+  .box h4{
+    font-size: 22px;
+  }
+  .box ul a li{
+    font-size: 18px;
+  }
+}
